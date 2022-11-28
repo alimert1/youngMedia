@@ -1,4 +1,5 @@
 import "./login.scss"
+import {Link} from "react-router-dom";
 
 const Login = () => {
     return (
@@ -12,8 +13,10 @@ const Login = () => {
                         nobis saepe sapiente omnis officiis.
                     </p>
                     <span>Don't you have an account?</span>
-                    <button>Register</button>
-
+                    <Link to="/register">
+                       <button>Register</button>
+                    </Link>
+            
                 </div>
 
 
@@ -31,4 +34,4 @@ const Login = () => {
     );
 };
 
-export default Login
+export default Login;
