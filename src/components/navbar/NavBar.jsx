@@ -30,7 +30,7 @@ const Navbar = () => {
                 <NotificationImportantOutlinedIcon/>
                 <div className="user">
                     <img src="https://images.pexels.com/photos/1261815/pexels-photo-1261815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                    <span>Ali Mert Yılmaz</span>
+                    <span>Ali Mert Yılmazz</span>
                 </div>
             </div>
         </div>
